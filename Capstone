@@ -1,16 +1,1 @@
-#IMPORT NECESSARY LIBRARY
-import pandas as pd
-import numpy as np
 
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-from scipy.stats import normaltest, chi2_contingency, mannwhitneyu, ttest_ind, f_oneway
-
-import warnings
-warnings.filterwarnings("ignore")
-
-from datetime import datetime
-#READ IN DATA
-df =pd.read_csv(r'C:\Users\DAFFA K R\Downloads\NYC TLC Trip Record.csv',low_memory=False) #increase efficiency
-df
